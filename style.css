@@ -1,0 +1,70 @@
+div {
+    border: 1px solid #E0E0E0;
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    width: 378px;
+    height: 274px;
+    margin-top: 142px;
+    margin-left: 451px;
+    padding: 10px;
+}
+.email {
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    width: 315px;
+    height: 45px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.email:hover {
+    border: 1px solid #BBB400;
+    border-radius: 4px;
+}
+.password {
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    width: 315px;
+    height: 45px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.password:hover {
+    border: 1px solid #BBB400;
+    border-radius: 4px;
+}
+button {
+    background-color: #FFD43A;
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: none;
+}
+button:hover, button::placeholder {
+    border-radius: 22.5px;
+    background-color: #BBB400;
+    color: #7C0000;
+    font-size: 20px;
+    font-family: chemi fonti;
+    font-weight: 500;
+}
+input::placeholder {
+    font-family: chemi fonti;
+    font-size: 16px;
+    font-weight: 500;
+    color: #9E9E9E;
+}
+label {
+    font-family: chemi fonti;
+    font-size: 16px;
+    font-weight: 500;
+    color: #616161;
+    padding-left: 10px;
+}
+@font-face {
+    font-family: chemi fonti;
+    src: url("fonti/Inter-VariableFont_slnt\,wght.ttf");
+}
